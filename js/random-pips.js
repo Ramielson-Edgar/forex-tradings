@@ -10,9 +10,9 @@ function random(min, max, text) {
     const result = roundedCounter.slice(0, -1)
 
     if (Number(result) > 1.6 || Number(result) > 0.6 && Number(result) < 1.0) {
-        text.style.color = "#4CD7AB"
-    } else {
         text.style.color = "#E53935"
+    } else {
+        text.style.color = "#4CD7AB"
     } 
     
 

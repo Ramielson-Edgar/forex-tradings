@@ -355,11 +355,12 @@ img {
 }
 
 .forex-trading-feedback__rating-item {
-  background-color: var(--green-500);
+  background-color: #00B67A;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 6px;
 }
 
 .forex-trading-feedback__rating-item:not(:last-child) {
@@ -374,9 +375,8 @@ img {
   margin-bottom: 30px;
 }
 
+.forex-trading-feedback-rating__text,
 .forex-trading-feedback__rating {
-  display: flex;
-  align-items: center;
   margin-top: 10px;
 }
 
