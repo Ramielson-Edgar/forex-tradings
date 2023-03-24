@@ -4,8 +4,6 @@ const eurUsd= document.querySelector('.EURUSD')
 const gpbUsd= document.querySelector('.GPBUSD')
 const usdJpy= document.querySelector('.USDJPY')
 
-
-
 function random(min, max, text) {
     const counterCount = min + Math.random() * (max - min);
     const roundedCounter = Number(counterCount).toFixed(2)
