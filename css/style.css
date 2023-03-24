@@ -312,6 +312,17 @@ img {
        column-gap: 20px;
 }
 
+.forex-trading-hero__title {
+  transform: translateY(100px);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.forex-trading-advantages__item {
+  transform: translateY(150px);
+  opacity: 0;
+}
+
 .forex-trading-advantages__title {
   display: flex;
   align-items: center;
@@ -373,6 +384,10 @@ img {
   background-color: var(--blue-100);
 }
 
+.forex-trading-banner__header {
+  transform: translateY(100px);
+}
+
 .forex-trading-banner-container {
   position: relative;
   color: var(--light);
@@ -388,6 +403,7 @@ img {
   position: absolute;
   top: -180px;
   right: 0;
+  transform: translateY(100px);
 }
 
 .forex-trading-banner__title {
@@ -422,6 +438,7 @@ img {
 }
 
 .forex-trading-feedback__header {
+  transform: translateY(100px);
   max-width: 422px;
 }
 
@@ -519,6 +536,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transform: translateY(100px);
 }
 
 .forex-trading-tools__item {
@@ -579,6 +597,10 @@ img {
 
 .forex-trading-feedback__title {
   margin-bottom: 20px;
+}
+
+.forex-trading-award-title {
+  transform: translateY(50px);
 }
 
 .forex-trading-award__list {

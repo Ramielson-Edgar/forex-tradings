@@ -173,6 +173,95 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
+  gsap.to(".forex-trading-advantages__item", {
+    scrollTrigger: {
+      trigger: ".forex-trading-advantages__item",
+      start: "-300px center",
+      end: "top center",
+ 
+    },
+
+    y:0,
+    opacity:1,
+    stagger:0.1,
+    duration:.7,
+  });
+
+
+  gsap.to(".forex-trading-hero__title", {
+    scrollTrigger: {
+      trigger: ".forex-trading-hero__title",
+      start: "top center",
+    },
+
+    y:0,
+    "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+    duration:.6,
+    
+  });
+
+  gsap.to(".forex-trading-feedback__header ", {
+    scrollTrigger: {
+      trigger: ".forex-trading-feedback__header ",
+      start: "-300px center",
+    },
+
+    y:0,
+    
+    duration:.6,
+    
+  });
+
+  gsap.to(".forex-trading-banner__header", {
+    scrollTrigger: {
+      trigger: ".forex-trading-banner__header",
+      start: "-300px center",
+    },
+
+    y:0,
+    duration:.6,
+    
+  });
+ 
+  gsap.to(".fore-trading-banner-img", {
+    scrollTrigger: {
+      trigger: ".fore-trading-banner-img",
+      start: "-350px center",
+    },
+
+    y:0,
+    duration:.6,
+    
+  });
+ 
+
+  
+  gsap.to(".forex-trading-tools__item", {
+    scrollTrigger: {
+      trigger: ".forex-trading-tools__item",
+      start: "-300px center",
+    },
+
+    y:0,
+    duration:.6,
+    stagger:0.1,
+    
+  });
+
+
+  gsap.to(".forex-trading-award-title", {
+    scrollTrigger: {
+      trigger: ".forex-trading-award-title",
+      start: "-340px center",
+    },
+
+    y:0,
+    
+    
+  });
+ 
+
+ 
 
  
 });
