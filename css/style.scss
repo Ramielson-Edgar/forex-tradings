@@ -511,12 +511,12 @@ img {
 .forex-trading-feedback__slide {
     background-color: var(--light);
     border-radius: 13px;
-    padding: 20px;
+    padding: 40px;
     height: 300px;
 }
 
 .forex-trading-feedback__slide-title {
-    font-size: 1rem;
+    font-size: 15px;
     margin-bottom: 16px;
 }
 
@@ -524,6 +524,7 @@ img {
     color: var(--dark-400);
     font-size: $font-size-14;
     margin-bottom: 10px;
+    line-height: 24px;
 }
 
 .forex-trading-feedback__slide-name {
@@ -932,6 +933,10 @@ img {
 
     .forex-trading-tools__body-tex {
         font-size: $font-size-14;
+    }
+
+    .forex-trading-feedback__slide {
+        height: 300px;
     }
 
 }
