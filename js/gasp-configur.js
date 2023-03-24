@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
   let tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 1 } });
   gsap.registerPlugin(ScrollTrigger);
 
-  gsap.config({
-    nullTargetWarn: false,
-    trialWarn: false,
-  });
+  // gsap.config({
+  //   nullTargetWarn: false,
+  //   trialWarn: false,
+  // });
 
   tl.to(".image-1-2", {
     scrollTrigger: {
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
-//   ========== Mobile==================
+  //   ========== Mobile==================
 
   tl.to(".image-500-1-2", {
     scrollTrigger: {
@@ -161,4 +161,18 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     },
   });
+
+  tl.to(".image-500-1-1", {
+    scrollTrigger: {
+      trigger: ".image-500-1-1",
+      start: "top center",
+      end: "top center",
+    },
+
+    opacity: 1,
+  });
+
+
+
+ 
 });

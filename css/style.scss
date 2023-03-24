@@ -184,6 +184,10 @@ img {
     padding: 10px 20px;
 }
 
+.btn-base-lg {
+    padding: 10px 30px;
+}
+
 
 
 @mixin flex-grid($width, $gap) {
@@ -298,8 +302,7 @@ img {
     margin-bottom: 30px;
     margin-inline: auto;
     background: rgba(217, 217, 217, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(25px);
     border-radius: 16px;
 }
 
@@ -320,6 +323,11 @@ img {
     border: none;
     color: var(--light);
     padding: 30px;
+    border: 2px solid var(--green-500);
+}
+
+.forex-trading-hero__widget-list .forex-trading-hero__widget-btn {
+    border: 2px solid transparent
 }
 
 .forex-trading-hero__widget-list {
@@ -336,21 +344,9 @@ img {
     font-size: 24px;
 }
 
-.forex-trading-hero__widget-item {
-    border: 2px solid transparent;
-    cursor: pointer;
-}
 
-.forex-trading-hero__widget-item:hover {
-    border: 2px solid var(--green-500);
-}
-
-.forex-trading-hero__widget-item:first-child {
-    border-radius: 16px 0 0 16px;
-}
-
-.forex-trading-hero__widget-item:last-child {
-    border-radius: 0 16px 16px 0;
+.forex-trading-hero__widget-btn {
+    border-radius: 16px;
 }
 
 
@@ -391,7 +387,6 @@ img {
     row-gap: 50px;
     column-gap: 20px;
 }
-
 
 .forex-trading-advantages__title {
     display: flex;
@@ -506,7 +501,7 @@ img {
     position: absolute;
     top: -60px;
     left: 0;
-    margin-left: 45%;
+    margin-left: 44%;
 }
 
 .forex-trading-feedback__header {
@@ -516,12 +511,12 @@ img {
 .forex-trading-feedback__slide {
     background-color: var(--light);
     border-radius: 13px;
-    padding: 40px;
-    height: 280px;
+    padding: 20px;
+    height: 300px;
 }
 
 .forex-trading-feedback__slide-title {
-    font-size: $font-size-18-14;
+    font-size: 1rem;
     margin-bottom: 16px;
 }
 
@@ -584,7 +579,7 @@ img {
     left: -30px;
     display: flex;
     justify-content: space-between;
-    width: 53%;
+    width: 37%;
 }
 
 .slider-arrow {
@@ -689,6 +684,11 @@ img {
     flex-wrap: wrap;
 }
 
+.forex-trading-award__list+.btn-base {
+    text-align: center;
+    margin-inline: auto;
+}
+
 .forex-trading-award__body {
     border-left: 2px solid var(--blue-700);
     padding-left: 10px;
@@ -707,6 +707,13 @@ img {
     position: absolute;
     top: -300px;
     right: 0;
+}
+
+.forex-trading-award-container > .btn-base {
+  max-width: 190px;
+  margin-inline: auto;
+  display: block;
+  margin-top: 30px;
 }
 
 .forex-trading-award__title {
@@ -927,10 +934,6 @@ img {
         font-size: $font-size-14;
     }
 
-    .forex-trading-feedback__slide {
-        height: 320px;
-    }
-
 }
 
 @media (max-width:991.98px) {
@@ -1032,7 +1035,7 @@ img {
     }
 
     .forex-trading-feedback__slide {
-        height: 270px;
+        height: 220px;
     }
 }
 
@@ -1078,7 +1081,7 @@ img {
     }
 
     .forex-trading-feedback__slide {
-        height: 320px;
+        height: 240px;
     }
 
     .forex-trading-banner-container {
@@ -1131,6 +1134,18 @@ img {
 
 @media (max-width:575.98px) {
 
+    .btn-base-lg {
+        padding: 8px 15px;
+    }
+
+    .btn-base-small {
+        padding: 8px 10px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
     .forex-trading-footer-info,
     .forex-trading-advantages__list {
         grid-template-columns: 1fr;
@@ -1148,6 +1163,8 @@ img {
     .forex-trading-hero__widget-list .forex-trading-hero__widget-btn {
         padding: 20px;
     }
+
+    
 
     .forex-trading-award__list {
         display: grid;
@@ -1260,9 +1277,6 @@ img {
         text-align: center;
     }
 
-    .forex-trading-feedback__slide {
-        height: 500px;
-    }
 
     .forex-trading-feedback__slider.owl-theme .owl-nav {
         left: -20px;
@@ -1304,7 +1318,7 @@ img {
 
     .forex-trading-feedback__slide {
         padding: 20px;
-        height: 400px;
+        height: 300px;
     }
 
     .section-padding {
