@@ -274,11 +274,21 @@ img {
 
 .forex-trading-hero {
     background-image: url('../img/main-hero.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--light);
 }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .forex-trading-hero {
+    background-image: url('../img/main-hero@1x.jpg');
+  }
+}
+
 
 .forex-trading-hero__header {
     text-align: center;
@@ -301,9 +311,16 @@ img {
     margin-top: 50px;
     margin-bottom: 30px;
     margin-inline: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+
+@supports (backdrop-filter: blur(25px)){
+.forex-trading-hero__widget {
     background: rgba(217, 217, 217, 0.1);
     backdrop-filter: blur(25px);
-    border-radius: 16px;
+}
 }
 
 .forex-trading-hero__widget-list .forex-trading-hero__widget-btn {
@@ -459,7 +476,6 @@ img {
 }
  
 
-
 .forex-trading-banner {
     background-color: var(--blue-100);
 }
@@ -476,9 +492,10 @@ img {
     padding: 100px 50px;
 
     background: url('../img/banner-bg.png'), var(--blue-700);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center right;
-    background-size: contain;
+    background-size: 800px;
 }
 
 .fore-trading-banner-img {
