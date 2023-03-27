@@ -222,7 +222,7 @@ img {
 }
 
 .forex-trading-hero__title {
-  font-size: clamp(1.13rem, -0.11rem + 6.2vw, 4.69rem);
+  font-size: clamp(1.25rem, -0.32rem + 6.71vw, 4.88rem);
   margin-bottom: 10px;
 }
 
@@ -841,6 +841,9 @@ img {
   .forex-trading-feedback__slide {
     height: 300px;
   }
+  .forex-trading-banner-container {
+    background-position: center right -160px;
+  }
 }
 @media (max-width: 991.98px) {
   .forex-trading-tools__list {
@@ -921,6 +924,9 @@ img {
   .forex-trading-feedback__slide {
     height: 220px;
   }
+  .forex-trading-banner-container {
+    background-position: center right -300px;
+  }
 }
 @media (max-width: 767.98px) {
   .forex-trading-hero__earn {
@@ -960,14 +966,12 @@ img {
   .forex-trading-banner-container {
     padding: 50px;
   }
-  .forex-trading-banner__header {
-    margin-top: 240px;
-  }
   .fore-trading-banner-img {
-    position: absolute;
-    top: -500px;
-    right: 20%;
+    position: relative;
+    top: -70px;
+    left: 0;
     width: 60%;
+    margin-inline: auto;
   }
   .forex-trading-banner-container {
     background: url("../img/banner-bg-700.png"), var(--blue-700);
@@ -1118,14 +1122,7 @@ img {
     padding: 40px;
   }
   .fore-trading-banner-img {
-    top: -310px;
-    left: 50%;
-    right: unset;
-    width: 70%;
-    transform: translate(-50%, -50%);
-  }
-  .forex-trading-banner__header {
-    margin-top: 70%;
+    width: 100%;
   }
   .contacts-us {
     margin-bottom: 0;
@@ -1157,13 +1154,13 @@ img {
   .image-500-1 {
     filter: drop-shadow(-28px 32px 50px rgba(0, 0, 0, 0.08));
   }
+  .forex-trading-banner-container {
+    background-position: top -10px center;
+  }
 }
 @media (max-width: 375px) {
   .forex-trading-award__img-container .award-1 {
     width: 66px;
-  }
-  .fore-trading-banner-img {
-    top: -260px;
   }
   .forex-trading-hero__widget-list .forex-trading-hero__widget-btn.active,
 .forex-trading-hero__widget-list .forex-trading-hero__widget-btn {
@@ -1179,5 +1176,8 @@ img {
   }
   .forex-trading-hero__earn {
     margin-bottom: 220px;
+  }
+  .fore-trading-banner-img {
+    top: -60px;
   }
 }/*# sourceMappingURL=style.css.map */
