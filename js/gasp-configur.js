@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   tl.to(".image-1-2", {
     scrollTrigger: {
       trigger: ".image-1-2",
-      start: "10px center",
+      start: "-200px center",
       end: "10px center",
     },
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   ScrollTrigger.create({
     trigger: ".image-1-2",
-    start: "10px center",
+    start: "-200px center",
     end: "200px center",
     onToggle: (self) => {
       if (self.isActive === false) {

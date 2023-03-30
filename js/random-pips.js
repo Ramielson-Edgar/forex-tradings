@@ -12,7 +12,7 @@ function random(min, max, text) {
     if (Number(result) > 1.6 || Number(result) > 0.6 && Number(result) < 1.0) {
         text.style.color = "#E53935"
     } else {
-        text.style.color = "#4CD7AB"
+        text.style.color = "#00C94C"
     } 
     
 

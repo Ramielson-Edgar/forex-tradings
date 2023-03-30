@@ -67,7 +67,7 @@ img {
 }
 
 .text-green {
-  color: var(--green-500);
+  color: #00C94C;
 }
 
 .btn-base {
@@ -222,7 +222,7 @@ img {
 }
 
 .forex-trading-hero__title {
-  font-size: clamp(1.25rem, -0.32rem + 6.71vw, 4.88rem);
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
@@ -262,7 +262,7 @@ img {
   border: none;
   color: var(--light);
   padding: 30px;
-  border: 2px solid var(--green-500);
+  border: 2px solid #00C94C;
 }
 
 .forex-trading-hero__widget-list .forex-trading-hero__widget-btn {
@@ -389,6 +389,10 @@ img {
 .forex-trading-feedback-rating__text,
 .forex-trading-feedback__rating {
   margin-top: 10px;
+}
+
+.forex-trading-feedback-rating__text {
+  color: var(--blue-500);
 }
 
 .forex-trading-banner {
